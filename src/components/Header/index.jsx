@@ -1,10 +1,9 @@
 import React from 'react';
-import {Container} from './styles'
+import { Container, Title } from './styles';
 
-const Header = ({color}) => {
+const Header = ({ color, title }) => {
   return (
-    <Container color={color}>     
-    </Container>
+    <Container color={color}>{!!title && <Title>{title}</Title>}</Container>
   );
 };
 

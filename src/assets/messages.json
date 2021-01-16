@@ -1,0 +1,26 @@
+[
+  {
+    "from": "bot",
+    "message": "Seja bem-vinde! Sou assistente virtual da NOMEINDEFINIDO. Para começar precisaremos de algumas informações. \n\n\n \n\n \n\n Não se preocupe, todas as suas informações estarão seguras conosco!Que tal começarmos com o seu nome?"
+  },
+  {
+    "from": "user",
+    "message": "Meu nome é Liz"
+  },
+  {
+    "from": "bot",
+    "message": "Legal, Liz. Poderia falar um pouco mais sobre seus interesses?"
+  },
+  {
+    "from": "user",
+    "message": "Meu nome é Liz"
+  },
+  {
+    "from": "bot",
+    "message": "Estamos gerando seu plano personalizado de estudos. Aguarde um momento."
+  },
+  {
+    "from": "bot",
+    "message": "A analise do seu perfil foi concluida com sucesso.Clique aqui para prosseguir."
+  }
+]

@@ -40,7 +40,7 @@ const Chatbot = () => {
         <BotMessage>
           A analise do seu perfil foi concluida com sucesso.
           <br /><br />
-          <Link to='courses'>Clique aqui para prosseguir.</Link>
+          <Link to='home'>Clique aqui para prosseguir.</Link>
         </BotMessage>
         
       </MessagesContainer>
