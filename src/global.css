@@ -1,0 +1,15 @@
+* {
+  box-sizing: border-box;
+}
+
+*:focus {
+  outline: none;
+}
+
+html,
+body {
+  width: 100vw;
+  margin: 0px;
+  padding: 0px;
+  background-color: #f2f2f2;
+}
