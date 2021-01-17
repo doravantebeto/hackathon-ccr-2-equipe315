@@ -16,10 +16,13 @@ import {
   Separator,
   VocationContainer,
   HorizontalSectionCardSubTitle,
+  Spacer,
 } from './styles';
 
 import Header from '../../components/Header';
+import Menu from '../../components/Menu';
 import Card from '../../components/Card';
+import ProfileResume from '../../components/ProfileResume';
 
 import cinemaCamera from '../../assets/cinemaCamera.svg';
 import coins from '../../assets/coins.svg';
@@ -28,6 +31,10 @@ const Home = () => {
   return (
     <Container>
       <Header title='Home' />
+
+      <ProfileResume />
+
+      <HorizontalSectionTitle>Sua área de atuação</HorizontalSectionTitle>
       <Card>
         <VocationContainer>
           <VocationIcon src={cinemaCamera} alt='Vocação' />
@@ -199,6 +206,8 @@ const Home = () => {
           </HorizontalSectionCardBody>
         </Card>
       </HorizontalSection>
+      <Spacer />
+      <Menu location='Home' />
     </Container>
   );
 };

@@ -206,3 +206,9 @@ export const HorizontalSectionCardInfoDescription = styled.div`
 
 
 `
+
+export const Spacer = styled.div`
+
+  height:100px;
+
+`
