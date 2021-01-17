@@ -1,3 +1,4 @@
+import { Link } from 'react-router-dom'
 import styled from 'styled-components'
 
 export const Container = styled.div`
@@ -13,7 +14,7 @@ export const Container = styled.div`
 
 
 
-export const VocationContainer = styled.div`
+export const VocationContainer = styled(Link)`
 
   display:flex;
   flex-direction:column;
@@ -21,6 +22,7 @@ export const VocationContainer = styled.div`
   align-items:center;
   padding:20px;
   max-width:400px;
+  text-decoration:none;
 
 `
 

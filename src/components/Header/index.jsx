@@ -1,9 +1,16 @@
 import React from 'react';
-import { Container, Title } from './styles';
+import { Container, Title, BackButton, BackIcon } from './styles';
 
-const Header = ({ color, title }) => {
+const Header = ({ color, title, backTo }) => {
   return (
-    <Container color={color}>{!!title && <Title>{title}</Title>}</Container>
+    <Container color={color}>
+      {!!backTo && (
+        <BackButton to={`/${backTo}`}>
+          <BackIcon />
+        </BackButton>
+      )}
+      {!!title && <Title>{title}</Title>}
+    </Container>
   );
 };
 

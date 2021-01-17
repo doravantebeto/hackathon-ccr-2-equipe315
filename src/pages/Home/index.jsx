@@ -36,7 +36,7 @@ const Home = () => {
 
       <HorizontalSectionTitle>Sua área de atuação</HorizontalSectionTitle>
       <Card>
-        <VocationContainer>
+        <VocationContainer to='planejamento'>
           <VocationIcon src={cinemaCamera} alt='Vocação' />
           <VocationTitle>CINEASTA</VocationTitle>
           <VocationDescription>

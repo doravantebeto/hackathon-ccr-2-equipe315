@@ -1,4 +1,6 @@
 import styled from 'styled-components'
+import { FiChevronLeft } from 'react-icons/fi'
+import { Link } from 'react-router-dom'
 
 export const Container = styled.div`
 
@@ -23,5 +25,20 @@ line-height: 23px;
 letter-spacing: -0.30000001192092896px;
 text-align: center;
 color: #F5F5F5;
+
+`
+
+export const BackButton = styled(Link)`
+
+  position:absolute;
+  top:30px;
+  left:10px;
+
+`
+
+export const BackIcon = styled(FiChevronLeft)`
+
+  color:white;
+  font-size:35px;
 
 `

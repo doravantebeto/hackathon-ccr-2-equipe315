@@ -5,6 +5,7 @@ import Chatbot from '../pages/Chatbot';
 import Home from '../pages/Home';
 import Store from '../pages/Store';
 import Profile from '../pages/Profile';
+import Planning from '../pages/Planning';
 
 const Routes = () => {
   return (
@@ -14,6 +15,7 @@ const Routes = () => {
         <Route path='/home' component={Home} />
         <Route path='/loja' component={Store} />
         <Route path='/perfil' component={Profile} />
+        <Route path='/planejamento' component={Planning} />
       </Switch>
     </BrowserRouter>
   );
